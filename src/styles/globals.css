@@ -47,4 +47,24 @@
     .btn:disabled {
         @apply text-neutral-400 bg-neutral-700;
     }
+
+    .cortextual-nav-link {
+        @apply text-sm text-zinc-300 hover:text-white transition-colors duration-200 flex items-center gap-1;
+    }
+
+    .cortextual-card-dark {
+        @apply border border-zinc-800 bg-zinc-950 rounded-lg;
+    }
+
+    .cortextual-card-light {
+        @apply border border-zinc-300 bg-neutral-50 rounded-lg;
+    }
+
+    .cortextual-btn-primary {
+        @apply h-[47px] px-6 bg-zinc-950 border border-zinc-700 text-zinc-50 rounded-[12px] text-sm font-medium hover:bg-zinc-800 transition-colors duration-200 inline-flex items-center justify-center gap-2;
+    }
+
+    .cortextual-btn-secondary {
+        @apply h-[47px] px-6 bg-transparent border border-zinc-700 text-zinc-50 rounded-[12px] text-sm font-medium hover:bg-zinc-800 transition-colors duration-200 inline-flex items-center justify-center gap-2;
+    }
 }

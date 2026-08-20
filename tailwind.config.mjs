@@ -14,7 +14,11 @@ export default {
                 'grid-pattern': `linear-gradient(to bottom, theme('colors.neutral.950 / 0%'), theme('colors.neutral.950 / 100%')), url('${noiseDataUri}')`
             },
             colors: {
-                neutral: colors.neutral
+                neutral: colors.neutral,
+                accent: {
+                    lime: '#F2FC2A',
+                    blue: '#3B82F6'
+                }
             },
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans]
